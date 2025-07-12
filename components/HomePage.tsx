@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import Hero from './Hero';
 import Companies from './Companies';
+import BentoFeatures from './BentoFeatures';
 
 const HomePage = () => {
   return (
@@ -9,6 +10,7 @@ const HomePage = () => {
       <Navbar/>
       <Hero/>
       <Companies/>
+      <BentoFeatures/>
     </main>
   )
 }
