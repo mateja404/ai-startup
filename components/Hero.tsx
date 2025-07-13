@@ -15,8 +15,8 @@ const Hero = () => {
             <h1 className="text-purple-500">Latest integration just arrived</h1>
       </div>
       <div className="flex flex-col w-full h-full z-20 overflow-visible gap-y-5 items-center">
-            <h1 className="text-[70px] leading-tight font-medium flex mx-auto max-w-2xl text-center text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-fuchsia-400/70">Boost your rankings with AI.</h1>
-            <p className='max-auto text-white text-center max-w-xl text-lg'>Elevate your site’s visibility effortlessly with AI, where smart technology meets user-friendly SEO tools.</p>
+            <h1 className="text-4xl xl:text-[70px] leading-tight font-medium flex mx-auto max-w-2xl text-center text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-fuchsia-400/70">Boost your rankings with AI.</h1>
+            <p className='max-auto text-white text-center max-w-xl text-md xl:text-lg'>Elevate your site’s visibility effortlessly with AI, where smart technology meets user-friendly SEO tools.</p>
             <div className='p-[7px] border-1 border-zinc-700 rounded-xl hover:scale-110 transition-all duration-300'>
                 <Button className='bg-white text-black h-[45px] cursor-pointer hover:bg-white hover:text-black hover:scale-105 transition-all duration-300'>Start for free</Button>
             </div>

@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Hero from './Hero';
 import Companies from './Companies';
 import BentoFeatures from './BentoFeatures';
+import SeoEfforts from './SeoEfforts';
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <Hero/>
       <Companies/>
       <BentoFeatures/>
+      <SeoEfforts/>
     </main>
   )
 }
