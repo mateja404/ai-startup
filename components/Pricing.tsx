@@ -5,14 +5,14 @@ import { Button } from './ui/button';
 
 const Pricing = () => {
   return (
-    <section className='w-full h-full relative bg-black p-10 text-center flex flex-col gap-y-3'>
+    <section className='w-full h-full relative bg-black p-10 text-center flex flex-col gap-y-10 max-sm:gap-y-90 sm:mt-100 md:mt-0 lg:mt-0 xl:mt-0 2xl:mt-0 max-sm:mt-100'>
         <div className="absolute -inset-x-4 sm:-inset-x-8 -inset-y-4 bg-gradient-to-b from-violet-600/30 via-violet-500/40 to-transparent blur-2xl" style={{ maskImage: 'radial-gradient(ellipse at center, white 50%, transparent 100%)', WebkitMaskImage: 'radial-gradient(ellipse at center, white 50%, transparent 100%)', }}></div>
         <div className='flex flex-col gap-y-3 items-center justify-center'>
             <h1 className='text-white text-6xl text-center'>Pricing</h1>
             <p className='text-center max-w-sm text-white'>Choose the right plan to meet your SEO needs and start optimizing today.</p>
         </div>
-        <div className='max-sm:w-full 2xl:w-[80%] h-auto min-h-[500px] bg-transparent mx-auto flex flex-col xl:flex-row gap-3'>
-            <div className="flex flex-col w-full max-w-[350px] bg-transparent backdrop-blur-3xl border border-zinc-700 rounded-xl p-6">
+        <div className='max-sm:w-full xl:w-full justify-center 2xl:w-full h-auto min-h-[500px] mx-auto flex flex-col xl:flex-row gap-3'>
+            <div className="flex flex-col w-full max-w-[350px] bg-transparent text-left backdrop-blur-3xl border border-zinc-700 rounded-xl p-6">
                 {/* Header */}
                 <div className="flex flex-col gap-y-2 mb-4">
                     <h2 className="text-white text-2xl">Pricing</h2>
@@ -32,7 +32,7 @@ const Pricing = () => {
                     Join waitlist
                 </Button>
             </div>
-            <div className="flex flex-col w-full max-w-[350px] bg-transparent backdrop-blur-3xl border border-zinc-700 rounded-xl p-6">
+            <div className="flex flex-col w-full max-w-[350px] bg-transparent text-left backdrop-blur-3xl border border-zinc-700 rounded-xl p-6">
                 <div className="flex flex-col gap-y-2 mb-4">
                     <h2 className="text-white text-2xl">Pro</h2>
                     <p className="text-white/70 font-light">$29/mo</p>
@@ -48,7 +48,7 @@ const Pricing = () => {
                     Join waitlist
                 </Button>
             </div>
-            <div className="flex flex-col w-full max-w-[350px] bg-transparent backdrop-blur-3xl border border-zinc-700 rounded-xl p-6">
+            <div className="flex flex-col w-full max-w-[350px] bg-transparent text-left backdrop-blur-3xl border border-zinc-700 rounded-xl p-6">
                 <div className="flex flex-col gap-y-2 mb-4">
                     <h2 className="text-white text-2xl">Business</h2>
                     <p className="text-white/70 font-light">$29/mo</p>
