@@ -4,6 +4,8 @@ import Hero from './Hero';
 import Companies from './Companies';
 import BentoFeatures from './BentoFeatures';
 import SeoEfforts from './SeoEfforts';
+import OurClients from './OurClients';
+import Pricing from './Pricing';
 
 const HomePage = () => {
   return (
@@ -13,6 +15,8 @@ const HomePage = () => {
       <Companies/>
       <BentoFeatures/>
       <SeoEfforts/>
+      <OurClients/>
+      <Pricing/>
     </main>
   )
 }
