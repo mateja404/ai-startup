@@ -6,6 +6,7 @@ import BentoFeatures from './BentoFeatures';
 import SeoEfforts from './SeoEfforts';
 import OurClients from './OurClients';
 import Pricing from './Pricing';
+import Newsletter from './Newsletter';
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
       <SeoEfforts/>
       <OurClients/>
       <Pricing/>
+      <Newsletter/>
     </main>
   )
 }
