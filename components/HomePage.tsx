@@ -7,6 +7,7 @@ import SeoEfforts from './SeoEfforts';
 import OurClients from './OurClients';
 import Pricing from './Pricing';
 import Newsletter from './Newsletter';
+import Footer from "@/components/Footer";
 
 const HomePage = () => {
   return (
@@ -19,6 +20,7 @@ const HomePage = () => {
       <OurClients/>
       <Pricing/>
       <Newsletter/>
+      <Footer/>
     </main>
   )
 }

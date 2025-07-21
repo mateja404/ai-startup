@@ -24,12 +24,12 @@ const Pricing = () => {
                     <li className="flex gap-x-3 items-center"><Check className="w-[17px]" /> SEO monitoring</li>
                     <li className="flex gap-x-3 items-center"><Check className="w-[17px]" /> Monthly reports</li>
                 </ul>
-                <Button className="w-full mt-6 bg-gradient-to-b from-white/15 via-zinc-900 to-white/15 backdrop-blur-md border-2 border-white/20 hover:bg-transparent">Join waitlist</Button>
+                <Button className="w-full mt-6 cursor-pointer bg-gradient-to-b from-white/15 via-zinc-900 to-white/15 backdrop-blur-md border-2 border-white/20 hover:bg-transparent">Join waitlist</Button>
             </div>
             <div className="flex flex-col w-full flex-1 max-w-[350px] [background-image:linear-gradient(to_bottom,black_2%,transparent),linear-gradient(to_right,rgba(16,185,129,0.08)_1px,transparent_1px),linear-gradient(to_bottom,rgba(16,185,129,0.08)_1px,transparent_1px)] [background-size:100%_100%,50px_50px,50px_50px] text-left backdrop-blur-3xl border border-zinc-700 rounded-xl p-6">
                 <div className="flex flex-col gap-y-2 mb-4">
                     <h2 className="text-white text-2xl">Pro</h2>
-                    <p className="text-white/70 font-light">$29/mo</p>
+                    <p className="text-white/70 font-light">$79/mo</p>
                 </div>
                 <Separator className="bg-white/20 mb-6 mx-auto" />
                 <ul className="flex flex-col gap-y-3 text-left text-md text-white flex-grow">
@@ -40,12 +40,12 @@ const Pricing = () => {
                     <li className="flex gap-x-3 items-center"><Check className="w-[17px]" /> Content suggestions</li>
                     <li className="flex gap-x-3 items-center"><Check className="w-[17px]" /> Link optimization</li>
                 </ul>
-                <Button className="w-full mt-6 bg-gradient-to-b from-white/10 via-violet-700 to-white/10 backdrop-blur-md border-2 border-violet-600/50 hover:bg-transparent">Join waitlist</Button>
+                <Button className="w-full mt-6 cursor-pointer bg-gradient-to-b from-white/10 via-violet-700 to-white/10 backdrop-blur-md border-2 border-violet-600/50 hover:bg-transparent">Join waitlist</Button>
             </div>
             <div className="flex flex-col w-full flex-1 max-w-[350px] bg-transparent text-left backdrop-blur-3xl border border-zinc-700 rounded-xl p-6">
                 <div className="flex flex-col gap-y-2 mb-4">
                     <h2 className="text-white text-2xl">Business</h2>
-                    <p className="text-white/70 font-light">$29/mo</p>
+                    <p className="text-white/70 font-light">$149/mo</p>
                 </div>
                 <Separator className="bg-white/20 mb-6 mx-auto" />
                 <ul className="flex flex-col gap-y-3 text-left text-md text-white flex-grow">
@@ -58,7 +58,7 @@ const Pricing = () => {
                     <li className="flex gap-x-3 items-center"><Check className="w-[17px]" /> Multi-user access</li>
                     <li className="flex gap-x-3 items-center"><Check className="w-[17px]" /> API integration</li>
                 </ul>
-                <Button className="w-full mt-6 bg-gradient-to-b from-white/15 via-zinc-900 to-white/15 backdrop-blur-md border-2 border-white/20 hover:bg-transparent">Join waitlist</Button>
+                <Button className="w-full mt-6 cursor-pointer bg-gradient-to-b from-white/15 via-zinc-900 to-white/15 backdrop-blur-md border-2 border-white/20 hover:bg-transparent">Join waitlist</Button>
             </div>
         </div>
     </section>
